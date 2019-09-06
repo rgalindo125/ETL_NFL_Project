@@ -3,8 +3,27 @@ The purpose of this project is to identify NFL player arrest records and their d
 We are also asking: "Which team drafted the most players with arrest records during the period 2010 -2017?"
     
 ## The Process:
-We analyzed all the available arrest data from  and focussed on player name and arrest record and joining player demographic information. 
+We analyzed all the available arrest records from Kaggle NFL Arrests 2000 - 2017.
+A record of reported NFL Arrests with details about Crime, Team and Player. 
+ 
+## Extract
+
+Original Data Sources include:
+    *Web Scraping: 'html' from https://www.kaggle.com/patrickmurphy/nfl-arrests
     
-**Extract**
-Orinal Data Sources include:
-    *Web Scraping:
+    *pull: 'json' from https://www.kaggle.com/zynicide/nfl-football-player-stats#profiles_1512362725.022629.json
+    
+    Create dataframe from NFL Arrests csv file
+    Choose columns wanted from original dataframe
+    Rename columns
+    
+    Create dataframe from .json file nfl profiles 
+    
+ ## Transform: (Data Cleanup & Analysis)
+    
+    Clean nfl arrests by saving only the 1st instance of a player name and removing duplicate entries.
+    Clean nfl profiles. Duplicate players removed from the profile section
+    All na files filled with not applicable 
+ 
+
+
