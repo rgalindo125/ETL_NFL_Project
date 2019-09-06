@@ -9,9 +9,9 @@ A record of reported NFL Arrests with details about Crime, Team and Player.
 ## Extract
 
 Original Data Sources include:
-    *Web Scraping: 'html' from https://www.kaggle.com/patrickmurphy/nfl-arrests
     
-    *pull: 'json' from https://www.kaggle.com/zynicide/nfl-football-player-stats#profiles_1512362725.022629.json
+    Web Scraping: 'html' from https://www.kaggle.com/patrickmurphy/nfl-arrests
+    pull: 'json' from https://www.kaggle.com/zynicide/nfl-football-player-stats#profiles_1512362725.022629.json
     
     Create dataframe from NFL Arrests csv file
     Choose columns wanted from original dataframe
