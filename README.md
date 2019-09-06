@@ -1,4 +1,4 @@
-# NFL Players Stats with criminal records
+# NFL Player Profiles with Arrest records
 The purpose of this project is to identify NFL player arrest records and their demographic player records. 
 We are also asking: "Which team drafted the most players with arrest records during the period 2000 -2017?"
     
