@@ -1,6 +1,6 @@
 # NFL Players Stats with criminal records
 The purpose of this project is to identify NFL player arrest records and their demographic player records. 
-We are also asking: "Which team drafted the most players with arrest records during the period 2010 -2017?"
+We are also asking: "Which team drafted the most players with arrest records during the period 2000 -2017?"
     
 ## The Process:
 We analyzed all the available arrest records from Kaggle NFL Arrests 2000 - 2017.
@@ -24,6 +24,20 @@ Original Data Sources include:
     * Clean nfl arrests by saving only the 1st instance of a player name and removing duplicate entries.
     * Clean nfl profiles. Duplicate players removed from the profile section
     * All na files filled with not applicable 
+    
+## Load 
+
+
+
+
+# This repo contains the collaborative work. 
+
+## You will find the following:
+
+### Resources Folder
+
+### Output Folder
+   * NFL_Players.ipynb
  
 
 
