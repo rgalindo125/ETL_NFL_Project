@@ -1,6 +1,6 @@
 # NFL Player Profiles with Arrest records (ETL-Project)
 The purpose of this project is to identify NFL player arrest records and their demographic player records pulled from player profile records. 
-We are also asking: "Which team drafted the most players with arrest records during the period 2000 -2017?"
+As a bonus we are also asking: "Which college did most of the players drafted with arrest records come from during the period 2000 -2017?"
     
 ## The Process:
 We analyzed all the available arrest records from Kaggle NFL Arrests 2000 - 2017.
@@ -31,7 +31,7 @@ Original Data Sources include
 
 ## Load The Data
 
-## After the data was cleaned, the next step in the ETL process is loading. For this project a relational database was chosen; specifically PostgreSQL. The reason for choosing a relational database is due to the fact that each table is related to players in the NFL. One table is named "nfl_arrests" and the other "nfl_profiles". Each table can be queried seperately; however as will be explaind later, the tables can be joined where the player's names match in both tables. Joining the tables in this way gives the most robust data than either of the tables do seperately.
+After the data was cleaned, the next step in the ETL process is loading. For this project a relational database was chosen; specifically PostgreSQL. The reason for choosing a relational database is due to the fact that each table is related to players in the NFL. One table is named "nfl_arrests" and the other "nfl_profiles". Each table can be queried seperately; however as will be explaind later, the tables can be joined where the player's names match in both tables. Joining the tables in this way gives the most robust data than either of the tables do seperately.
 
 ## Steps in the loading process:
 In this project SQL Alchemy was used to connect to PostgreSQL; so in essence SQL Alchemy is a ORM that will be connected to PostgreSQL through the use of python and Jupyter Notebooks.
